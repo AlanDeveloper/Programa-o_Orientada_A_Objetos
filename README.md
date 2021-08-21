@@ -12,3 +12,8 @@
 ```
 > java <classname>
 ```
+
+## Apagar todos arquivos que foram compilados
+```
+> find . -type f -iname \*.class -delete
+```
